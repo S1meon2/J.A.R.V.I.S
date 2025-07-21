@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+
 
 from livekit import agents
 from livekit.agents import AgentSession, Agent, RoomInputOptions
@@ -7,7 +7,7 @@ from livekit.plugins import (
     noise_cancellation,
 )
 
-load_dotenv()
+
 
 stt = openai.STT(model="whisper-1")
 
