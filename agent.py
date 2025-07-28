@@ -42,7 +42,7 @@ async def entrypoint(ctx: agents.JobContext):
     await ctx.connect()
 
     await session.generate_reply(
-        instructions="Greet the user and offer your assistance like a butler, but your tone should remain professional and courteous."
+        instructions="Greet the user and offer your assistance like a butler, but your tone should remain very professional and courteous."
     )
 
 
