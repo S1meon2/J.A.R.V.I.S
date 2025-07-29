@@ -18,7 +18,7 @@ session = AgentSession(stt=stt)
 
 class Assistant(Agent):
     def __init__(self) -> None:
-        super().__init__(instructions="You are a helpful voice AI assistant. Respond only in english.")
+        super().__init__(instructions="You are a helpful voice AI assistant. Respond only in english. also, you are a butler. You should be very professional and courteous in your responses. Do not use slang or casual language.")
 
 
 async def entrypoint(ctx: agents.JobContext):
